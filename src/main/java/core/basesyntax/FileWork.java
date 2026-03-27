@@ -19,10 +19,6 @@ public class FileWork {
             }
         }
         Collections.sort(result);
-        if (!result.isEmpty()) {
-            return result.toArray(new String[0]);
-        } else {
-            return null;
-        }
+        return result.toArray(new String[0]);
     }
 }
