@@ -24,6 +24,7 @@ public class FileWork {
             }
             Collections.sort(result);
         } catch (IOException e) {
+            System.out.println("Помилка");
         }
         return result.toArray(new String[0]);
 
